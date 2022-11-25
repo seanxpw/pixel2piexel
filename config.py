@@ -3,7 +3,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-DEVICE = "cpu"
+# DEVICE = "cpu"
 ROOT = "/home/sean/GAN/pixel2pixel"
 TRAIN_DIR = f"{ROOT}/archive/maps/maps/train"
 VAL_DIR = f"{ROOT}/archive/maps/maps/val"
